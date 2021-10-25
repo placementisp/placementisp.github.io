@@ -2,3 +2,49 @@ html {
   scroll-behavior: smooth;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=== Varibales ===*/
+:root {
+  --thing:'Inter', sans-serif;
+  --thick:'Montserrat';
+}
+
+p {
+  font-family: var(--thick) ;
+  font-family: 500 !important;
+  line-height: 2.5;
+  
+ 
+}
+
+h1, h2,h3,h4,h5 {
+  font-family: var(--thing);
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+/*===Card stylings ===*/
+.card {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  margin-right:1em;
+  
+}
+
+
+.about::after {
+  background-color:  #21a9af;
+  content: "";
+  width: 2em;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2em;
+  border-radius: 3px;
+  
+}
